@@ -1,0 +1,129 @@
+#home {
+  margin-left: 20px;
+  padding: 9px 18px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+}
+span {
+  margin-right: 8px;
+}
+#home:hover {
+  background-color: darkblue;
+}
+h1,
+div {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#success {
+  border-radius: 27px;
+  padding: 13px 20px;
+  color: green;
+  background-color: white;
+  border: 2px solid green;
+}
+* {
+  border: none;
+}
+#success:hover {
+  color: white;
+  background-color: green;
+}
+#download {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #9333ea;
+  box-shadow: 1px 1px 27px -4px #6b21a8;
+  -webkit-box-shadow: 1px 1px 27px -4px #6b21a8;
+  -moz-box-shadow: 1px 1px 27px -4px #6b21a8;
+}
+#download:hover {
+  -moz-transform: translate(0px, 3px);
+  -webkit-transform: translate(0px, 3px);
+  -o-transform: translate(0px, 3px);
+  -ms-transform: translate(0px, 3px);
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+#explore {
+  color: white;
+  background-color: orange;
+  padding: 8px 18px;
+  border-radius: 20px;
+}
+#explore:hover {
+  background-color: darkorange;
+  font-size: medium;
+  padding: 15px 15px;
+}
+#favorite {
+  color: red;
+  border: 2px dashed red;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+#favorite:hover {
+  color: white;
+  background-color: red;
+}
+#send {
+  background-color: #0891b2;
+  color: white;
+  padding: 0px 15px;
+  border: 2px solid #1c6ea4;
+  border-radius: 0px 15px 0px 15px;
+}
+#send:hover {
+  border-radius: 15px 0px 15px 0px;
+}
+#rate-us {
+  background-color: rgb(245, 242, 242);
+  color: palevioletred;
+  border-bottom: 4px solid palevioletred;
+  padding: 6px 20px;
+}
+#rate-us:hover {
+  background-color: rgba(212, 182, 191, 0.5);
+}
+#shop-now {
+  padding: 10px 25px;
+  color: white;
+  background: #8dffa2;
+  background: -moz-linear-gradient(left, #8dffa2 0%, #a49594 50%, #6b7dc5 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #8dffa2 0%,
+    #a49594 50%,
+    #6b7dc5 100%
+  );
+  background: linear-gradient(to right, #8dffa2 0%, #a49594 50%, #6b7dc5 100%);
+  border-radius: 7px;
+}
+#shop-now:hover {
+  padding: 10px 25px;
+  font-size: medium;
+}
+#login {
+    color: white;
+    background-color:#91758f;
+    padding: 0px 13px;
+    border-radius: 5px;
+}
+#login:active {
+    border: 5px solid #a00096 ;
+}
+#subscribe:active {
+    color: black;
+    background-color: aqua;
+    border: 3px solid burlywood;
+    padding: 10px 20px;
+    font-size: medium;
+
+}
+#subscribe:hover {
+border-radius: 20%;
+}

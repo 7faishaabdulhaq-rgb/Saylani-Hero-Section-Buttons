@@ -1,0 +1,57 @@
+.img > img {
+  height: 480px;
+  width: 509.61px;
+  float: left;
+}
+.content > #id {
+  border: none;
+  display: inline;
+  border-radius: 25px;
+  padding: 8px 16px;
+  background-color: #ebf6e7;
+  color: #61bb46;
+  font-size: 14px;
+}
+* {
+  font-family: "Noto Nastaliq Urdu", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.content {
+  text-align: right;
+  margin-top: 30px;
+
+  margin-left: 220px;
+  margin-right: 40px;
+}
+#yellow {
+  color: #fff100;
+}
+.h1 {
+  line-height: 2;
+  font-size: 50px;
+}
+.h1 > #green {
+  color: #61bb46;
+}
+
+.pixel {
+  font-size: 20px;
+}
+.btn-1 {
+  color: #ebf6e7;
+  background-color: #61bb46;
+  border: none;
+  border-radius: 35px;
+  padding: 0px 40px;
+  font-size: 20px;
+  margin-left: 16px;
+}
+.btn-2 {
+  background-color: #ebf6e7;
+  color: #61bb46;
+  border-radius: 35px;
+  padding: 0px 40px;
+  font-size: 20px;
+}
